@@ -25,35 +25,11 @@ ssa = sa.split()
 sar = int(ssa[2]) * products[ssa[1]]
 sb = raw_input('input salesperson "b" number, productid and numprodsold at once. e.g 1 3 100\n')
 ssb = sb.split()
-if ssb[1] == ssa[1]:
-    print 'product has been taken'
-sb = raw_input('input salesperson "b" number, productid and numprodsold again. e.g 1 3 100\n')
-ssb = sb.split()
 sbr = int(ssb[2]) * products[ssb[1]]
 sc = raw_input('input salesperson "c" number, productid and numprodsold at once. e.g 1 3 100\n')
 ssc = sc.split()
-if ssc[1] == ssa[1]:
-    print 'product has been taken'
-sc = raw_input('input salesperson "c" number, productid and numprodsold again. e.g 1 3 100\n')
-ssc = sc.split()
-if ssc[1] == ssb[1]:
-    print 'product has been taken'
-sc = raw_input('input salesperson "c" number, productid and numprodsold again. e.g 1 3 100\n')
-ssc = sc.split()
 scr = int(ssc[2]) * products[ssc[1]]
 sd = raw_input('input salesperson "d" number, productid and numprodsold at once. e.g 1 3 100\n')
-ssd = sd.split()
-if ssd[1] == ssa[1]:
-    print 'product has been taken'
-sd = raw_input('input salesperson "d" number, productid and numprodsold again. e.g 1 3 100\n')
-ssd = sd.split()
-if ssd[1] == ssb[1]:
-    print 'product has been taken'
-sd = raw_input('input salesperson "d" number, productid and numprodsold again. e.g 1 3 100\n')
-ssd = sd.split()
-if ssd[1] == ssc[1]:
-    print 'product has been taken'
-sd = raw_input('input salesperson "d" number, productid and numprodsold again. e.g 1 3 100\n')
 ssd = sd.split()
 sdr = int(ssd[2]) * products[ssd[1]]
 
